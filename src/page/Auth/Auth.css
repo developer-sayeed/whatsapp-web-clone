@@ -1,0 +1,63 @@
+.authpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    #009688 0%,
+    #009688 130px,
+    #d9dbd5 130px,
+    #d9dbd5 100%
+  );
+}
+
+.container {
+  position: relative;
+  padding: 50px 100px;
+  width: 976px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  height: calc(100vh - 80px);
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba;
+}
+.authpage .leftside {
+  width: 70%;
+}
+.authpage .leftside h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0 0 30px 0;
+  margin: 0;
+}
+.authpage .leftside ol {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+.authpage .leftside ol li {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.authpage .leftside ol li strong {
+  font-weight: 500;
+  padding: 0 5px;
+}
+.authpage .rightside {
+  width: 30%;
+}
+.authpage .rightside .login {
+  padding-top: 10px;
+  text-align: center;
+}
+.authpage .rightside .login p {
+  font-size: 25px;
+}
+.authpage .rightside .login a {
+  color: #009688;
+  font-size: 20px;
+  font-weight: 500;
+}
